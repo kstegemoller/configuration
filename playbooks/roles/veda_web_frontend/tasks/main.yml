@@ -11,7 +11,7 @@
 # Tasks for role veda_web_frontend
 #
 
-
+# This is creating a client in VEDA application not LMS.
 - name: create OAuth application clients
   shell: >
     {{ veda_web_frontend_venv_dir }}/bin/python {{ COMMON_BIN_DIR }}/manage.{{ veda_web_frontend_service_name }} create_oauth_client --settings={{ VEDA_WEB_FRONTEND_DJANGO_SETTINGS_MODULE }}

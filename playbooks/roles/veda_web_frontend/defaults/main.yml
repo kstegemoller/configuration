@@ -30,6 +30,10 @@ veda_web_frontend_debian_pkgs:
   - libffi-dev
   - ffmpeg
 
+VEDA_WEB_FRONTEND_REPO: "edx-video-pipeline"
+
+VEDA_WEB_FRONTEND_VERSION: "master"
+
 VEDA_WEB_FRONTEND_MEMCACHE: []
 
 VEDA_WEB_FRONTEND_DJANGO_SETTINGS_MODULE: "VEDA.settings.production"

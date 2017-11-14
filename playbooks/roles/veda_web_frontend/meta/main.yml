@@ -14,8 +14,8 @@ dependencies:
   - role: video_pipeline_base
     video_pipeline_base_service_name: '{{ veda_web_frontend_service_name }}'
   - role: edx_django_service
-    edx_django_service_repo: 'edx-video-pipeline'
-    edx_django_service_version: '{{ VIDEO_PIPELINE_BASE_VERSION }}'
+    edx_django_service_repo: '{{ VEDA_WEB_FRONTEND_REPO }}'
+    edx_django_service_version: '{{ VEDA_WEB_FRONTEND_VERSION }}'
     edx_django_service_name: '{{ veda_web_frontend_service_name }}'
     edx_django_service_user: '{{ veda_web_frontend_user }}'
     edx_django_service_home: '{{ COMMON_APP_DIR }}/{{ veda_web_frontend_service_name }}'
