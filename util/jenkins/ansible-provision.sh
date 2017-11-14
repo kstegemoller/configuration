@@ -308,7 +308,7 @@ COURSE_DISCOVERY_ECOMMERCE_API_URL: "https://ecommerce-${deploy_host}/api/v2"
 DISCOVERY_URL_ROOT: "https://discovery-${deploy_host}"
 DISCOVERY_SOCIAL_AUTH_REDIRECT_IS_HTTPS: true
 
-VIDEO_PIPELINE_DOMAIN: "pipeline-${deploy_host}"
+VIDEO_PIPELINE_DOMAIN: "veda-${deploy_host}"
 VIDEO_PIPELINE_BASE_URL_ROOT: "https://{{ VIDEO_PIPELINE_DOMAIN }}"
 VEDA_LMS_BASE_URL: "https://{{ EDXAPP_LMS_BASE }}"
 
