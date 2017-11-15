@@ -14,7 +14,7 @@ edxlocal_databases:
   - "{{ ANALYTICS_API_REPORTS_DB_NAME | default(None) }}"
   - "{{ CREDENTIALS_DEFAULT_DB_NAME | default(None) }}"
   - "{{ DISCOVERY_DEFAULT_DB_NAME | default(None) }}"
-  - "{{ VIDEO_PIPELINE_BASE_DEFAULT_DB_NAME | default(None) }}"
+  - "{{ VEDA_WEB_FRONTEND_DEFAULT_DB_NAME | default(None) }}"
 
 edxlocal_database_users:
   - {
@@ -63,7 +63,7 @@ edxlocal_database_users:
       pass: "{{ DISCOVERY_MYSQL_PASSWORD | default(None) }}"
     }
   - {
-      db: "{{ VIDEO_PIPELINE_BASE_DEFAULT_DB_NAME | default(None) }}",
-      user: "{{ VIDEO_PIPELINE_BASE_MYSQL_USER | default(None) }}",
-      pass: "{{ VIDEO_PIPELINE_BASE_MYSQL_PASSWORD | default(None) }}"
+      db: "{{ VEDA_WEB_FRONTEND_DEFAULT_DB_NAME | default(None) }}",
+      user: "{{ VEDA_WEB_FRONTEND_MYSQL_USER | default(None) }}",
+      pass: "{{ VEDA_WEB_FRONTEND_MYSQL_PASSWORD | default(None) }}"
     }

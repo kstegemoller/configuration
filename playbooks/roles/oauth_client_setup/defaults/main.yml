@@ -46,11 +46,11 @@ oauth_client_setup_oauth2_clients:
         logout_uri: "{{ DISCOVERY_LOGOUT_URL | default('None') }}"
       }
     - {
-        name: "{{ video_pipeline_base_service_name | default('None') }}",
-        url_root: "{{ VIDEO_PIPELINE_BASE_OAUTH2_URL | default('None') }}",
-        id: "{{ VIDEO_PIPELINE_BASE_SOCIAL_AUTH_EDX_OIDC_KEY | default('None') }}",
-        secret: "{{ VIDEO_PIPELINE_BASE_SOCIAL_AUTH_EDX_OIDC_SECRET | default('None') }}",
-        logout_uri: "{{ VIDEO_PIPELINE_BASE_LOGOUT_URL | default('None') }}"
+        name: "{{ veda_web_frontend_service_name | default('None') }}",
+        url_root: "{{ VEDA_WEB_FRONTEND_OAUTH2_URL | default('None') }}",
+        id: "{{ VEDA_WEB_FRONTEND_SOCIAL_AUTH_EDX_OIDC_KEY | default('None') }}",
+        secret: "{{ VEDA_WEB_FRONTEND_SOCIAL_AUTH_EDX_OIDC_SECRET | default('None') }}",
+        logout_uri: "{{ VEDA_WEB_FRONTEND_LOGOUT_URL | default('None') }}"
       }
 
 #
