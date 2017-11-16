@@ -34,8 +34,5 @@ dependencies:
     edx_django_service_default_db_name: '{{ VEDA_WEB_FRONTEND_DEFAULT_DB_NAME }}'
     edx_django_service_db_user: '{{ VEDA_WEB_FRONTEND_MYSQL_USER }}'
     edx_django_service_db_password: '{{ VEDA_WEB_FRONTEND_MYSQL_PASSWORD }}'
-    edx_django_service_social_auth_edx_oidc_key: '{{ VEDA_WEB_FRONTEND_SOCIAL_AUTH_EDX_OIDC_KEY }}'
-    edx_django_service_social_auth_edx_oidc_secret: '{{ VEDA_WEB_FRONTEND_SOCIAL_AUTH_EDX_OIDC_SECRET }}'
-    edx_django_service_social_auth_redirect_is_https: '{{ VEDA_WEB_FRONTEND_SOCIAL_AUTH_REDIRECT_IS_HTTPS }}'
     edx_django_service_use_python3: false
     edx_django_service_config: '{{ VEDA_WEB_FRONTEND_SERVICE_CONFIG }}'
